@@ -1,0 +1,17 @@
+export default function Home() {
+  return (
+    <div style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100vh",
+      backgroundColor: "#0d0d0d",
+      color: "#ff4d4d",
+      fontFamily: "Arial, sans-serif",
+      flexDirection: "column"
+    }}>
+      <h1>Bienvenido a Spicy 🔥</h1>
+      <p>Tu plataforma está lista en Vercel 🚀</p>
+    </div>
+  );
+}
